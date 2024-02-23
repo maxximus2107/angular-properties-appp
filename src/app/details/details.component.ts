@@ -11,7 +11,7 @@ import { HousingLocationComponent } from '../housing-location/housing-location.c
   imports: [HousingLocationComponent],
   template: `
   <article>
-    <img class="listing-photo" [src]="housingLocation?.photo"
+    <img class="listing-photo" [src]="housingLocation?.photo" 
       alt="Exterior photo of {{housingLocation?.name}}"/>
     <section class="listing-description">
       <h2 class="listing-heading">{{housingLocation?.name}}</h2>
